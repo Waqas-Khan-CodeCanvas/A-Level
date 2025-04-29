@@ -1,0 +1,49 @@
+Section 1: String Processing (Vowel Counting)
+Tasks:
+IterativeVowels() Function (5 marks):
+
+Counts lowercase vowels (a, e, i, o, u) in a string.
+Save as Question1_N23.
+RecursiveVowels() Function (6 marks):
+
+Rewrite the iterative function recursively.
+Testing:
+
+Call functions with test cases (“house”, “imagine”) and save screenshots of outputs.
+
+
+
+Section 2: Queue Data Processing
+Tasks:
+Queue Implementation (10 marks):
+
+Declare a global queue array (Queue[50]), HeadPointer, and TailPointer.
+Implement Enqueue() (insert) and Dequeue() (remove) operations.
+File Processing (6 marks):
+
+Read game IDs from QueueData.txt and populate the queue using ReadData().
+Record Data Analysis (10 marks):
+
+Declare a RecordData structure (ID, Total).
+Use TotalData() to count duplicate IDs and store results in the Records array.
+Output results via OutputRecords().
+Main Program:
+
+Chain calls: ReadData() → TotalData() → OutputRecords().
+
+
+
+
+Section 3: Object-Oriented Programming (Game Characters)
+Tasks:
+Base Class Character (15 marks):
+
+Attributes: Name, XPosition, YPosition.
+Methods: Constructor, getters/setters, and Move() (adjusts position by ±10).
+Subclass BikeCharacter (5 marks):
+
+Inherits Character but overrides Move() to adjust positions by ±20.
+Testing (7 marks):
+
+Create instances (Jack, Karla).
+User inputs to move characters and output new positions (e.g., “Karla’s new position: X=100, Y=200”).
