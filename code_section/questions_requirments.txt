@@ -1,0 +1,37 @@
+Part	Task	                                Short Explanation
+1(a)	Declare Jobs array and NumberOfJobs	    2D list Jobs [100][2] and an integer NumberOfJobs.
+1(b)	Initialise() procedure	                Set all Jobs values to -1, reset NumberOfJobs to 0.
+1(c)	AddJob() procedure	                    Add a new job into next free slot, or show "Not added".
+1(d)	Main Program	                        Initialise, then add 5 sample jobs.
+1(e)	InsertionSort() procedure	            Sort Jobs array based on priority (lower number = higher priority).
+1(f)	PrintArray() procedure	                Display job number and priority nicely.
+1(g)(i)	Update main program	                    After adding jobs, sort and print.
+1(g)(ii)	Test and Screenshot	                Run and show output.
+
+
+
+
+
+
+
+Part	Task	                                Short Explanation
+2(a)	Character class with constructor	    Private attributes and __init__ method
+2(b)	Get methods	                            GetName(), GetX(), GetY()
+2(c)	ChangePosition method	                Change X and Y by adding input values
+2(d)	Load characters                         Read name, x, y from Characters.txt into a list
+2(e)	Search character	                    Keep asking user until valid character found
+2(f)	Move character	                        Based on input letter (A/W/S/D)
+2(g)(i)	Print result	                        Show character's updated coordinates
+
+
+
+
+
+
+Part	Task	                                Short Explanation
+3(a)	Declare Queue, HeadPointer, TailPointer	Global array Queue[100], and two pointers initialized.
+3(b)	Enqueue() function	                    Add value to queue, return TRUE or FALSE.
+3(c)	Main program: Add 1–20	                Use Enqueue() to add numbers 1 to 20, show "Successful" or "Unsuccessful".
+3(d)	Recursive total function	            Calculate sum of all queue values recursively.
+3(e)(i)	Call recursive total function	        Call it from main and display result.
+3(e)(ii)	Test output	                    Show output screen.
