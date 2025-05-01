@@ -1,4 +1,4 @@
-"""
+
 # Node class
 class node:
     def __init__(self, theData, nextNodeNumber):
@@ -54,7 +54,7 @@ outputNodes(linkedList, startPointer)
 
 
 
-"""
+
 
 # Declare array
 arrayData = [10, 5, 6, 7, 1, 12, 13, 15, 21, 8]
@@ -94,7 +94,7 @@ print(arrayData)
 
 
 
-"""
+
 
 # Treasure chest class
 class treasureChest:
@@ -148,4 +148,3 @@ if 1 <= choice <= 5:
         attempts += 1
     pointsEarned = arrayTreasure[choice - 1].getPoints(attempts)
     print("Points earned:", pointsEarned)
-"""
