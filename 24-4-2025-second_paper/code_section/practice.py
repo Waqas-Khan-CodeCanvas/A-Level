@@ -94,16 +94,16 @@
 
 
 
-# arrayData = [10,5,6,1,12,13,15,21,8] 
-# # print(arrayData)
-# def bubleSort(arrayData):
-#     for i in range(len(arrayData)):
-#         for j in range(len(arrayData)-1):
-#             if arrayData[j] > arrayData[j + 1 ]:
-#                 arrayData[j],arrayData[j + 1] = arrayData[j + 1 ], arrayData[j]
+arrayData = [10,5,6,1,12,13,15,21,8] 
+# print(arrayData)
+def bubleSort(arrayData):
+    for i in range(len(arrayData)):
+        for j in range(len(arrayData)-1):
+            if arrayData[j] > arrayData[j + 1 ]:
+                arrayData[j],arrayData[j + 1] = arrayData[j + 1 ], arrayData[j]
                   
-# # bubleSort(arrayData)
-# # print(arrayData)
+# bubleSort(arrayData)
+# print(arrayData)
 
 
 # class TreasureChest:
