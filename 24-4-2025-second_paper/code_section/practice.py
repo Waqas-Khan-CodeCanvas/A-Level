@@ -116,32 +116,32 @@ def bubleSort(arrayData):
 #     def GetQuestin(self):
 #         return self.__question    
         
-# def readData(): 
-#     try:
-#       fileData = open("TreasureChestData.txt" )
-#       line  = fileData.read()
-#       print(line)
+def readData(): 
+    try:
+      fileData = open("TreasureChestData.txt" )
+      line  = fileData.read()
+      print(line)
 
 
       
-#     except:
-#       print('An exception occurred')       
+    except:
+      print('An exception occurred')       
      
 
 
-# def division(a,b):
-#   try:
-#     result = a /b
-#     return result
+def division(a,b):
+  try:
+    result = a /b
+    return result
 
-#   except ZeroDivisionError:
-#     print("you can't divide a number by zero ")
+  except ZeroDivisionError:
+    print("you can't divide a number by zero ")
 
-# print(division(10,0))
+print(division(10,0))
 
 
-# user_name = input("what is your name : ")
-# print(user_name)
+user_name = input("what is your name : ")
+print(user_name)
 
 class TreasureChest:
     def __init__(self, question, answer, points):
