@@ -87,10 +87,10 @@
 
 # result=linearSearch(arrayData,searchValue)
 
-# if result:
-#     print("It was  found")
-# else:
-#     print("It was not found") 
+if result:
+    print("It was  found")
+else:
+    print("It was not found") 
 
 
 
@@ -102,19 +102,19 @@ def bubleSort(arrayData):
             if arrayData[j] > arrayData[j + 1 ]:
                 arrayData[j],arrayData[j + 1] = arrayData[j + 1 ], arrayData[j]
                   
-# bubleSort(arrayData)
-# print(arrayData)
+bubleSort(arrayData)
+print(arrayData)
 
 
-# class TreasureChest:
-#     def __init__(self, question, answer, points):
-#         # private attributes
-#         self.__question = question
-#         self.__answer = answer
-#         self.__points = points
+class TreasureChest:
+    def __init__(self, question, answer, points):
+        # private attributes
+        self.__question = question
+        self.__answer = answer
+        self.__points = points
         
-#     def GetQuestin(self):
-#         return self.__question    
+    def GetQuestin(self):
+        return self.__question    
         
 def readData(): 
     try:
