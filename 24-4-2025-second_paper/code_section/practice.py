@@ -59,33 +59,33 @@
 # outputNodes(linkedList, sp)        
 
 
-# class insane:
-#     def __init__(self,name,friend):
-#         self.name= name
-#         self.friend = friend
+class insane:
+    def __init__(self,name,friend):
+        self.name= name
+        self.friend = friend
         
-# hamza = insane("hamza","sufyan")
-# sufyan = insane("sufyan","waqas")
-# waqas = insane("waqas","zaryab")
+hamza = insane("hamza","sufyan")
+sufyan = insane("sufyan","waqas")
+waqas = insane("waqas","zaryab")
 
-# friendList = [hamza,sufyan,waqas ]
-# print(friendList[0].name)
+friendList = [hamza,sufyan,waqas ]
+print(friendList[0].name)
 
-# for i in range(len(friendList)):
-#     print(f"[ {friendList[i].name} | {friendList[i].friend} ]  " , end=" -> ")
+for i in range(len(friendList)):
+    print(f"[ {friendList[i].name} | {friendList[i].friend} ]  " , end=" -> ")
 
         
-# def linearSearch(arrayData,searchValue):
-#     for i in range(len(arrayData)):
-#         if arrayData[i] == searchValue:
-#             return True
+def linearSearch(arrayData,searchValue):
+    for i in range(len(arrayData)):
+        if arrayData[i] == searchValue:
+            return True
     
-#     return False          
+    return False          
 
-# arrayData = [10,5,6,1,12,13,15,21,8]
-# searchValue = int(input("Enter a value to search in list"))
+arrayData = [10,5,6,1,12,13,15,21,8]
+searchValue = int(input("Enter a value to search in list"))
 
-# result=linearSearch(arrayData,searchValue)
+result=linearSearch(arrayData,searchValue)
 
 if result:
     print("It was  found")
