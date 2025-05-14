@@ -1,7 +1,7 @@
 # Section 1: String Processing (Vowel Counting)
 
 # Question1_N23.py (IterativeVowels)
-"""
+
 def IterativeVowels(value):
     total = 0
     length = len(value)
@@ -26,9 +26,7 @@ def RecursiveVowels(value):
     
 print("Vowel count in 'imagine':", RecursiveVowels("imagine"))
 
-"""
 
-"""
 # -----------------------
 # Question2_N23.py
 # -----------------------
@@ -123,7 +121,7 @@ def main():
 main()
 print(HeadPointer)
 print(TailPointer)
-"""
+
 
 # -------------------------
 # Question3_N23.py
