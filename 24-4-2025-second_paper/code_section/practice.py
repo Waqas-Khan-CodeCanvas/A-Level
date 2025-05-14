@@ -1,56 +1,56 @@
-# class node:
-#     def __init__(self,data,nextNode):
-#         self.data = data
-#         self.nextNode = nextNode
+class node:
+    def __init__(self,data,nextNode):
+        self.data = data
+        self.nextNode = nextNode
         
-# linkedList = [
-#     node(1,1), node(5,4), node(6,7), node(7,-1), node(2,2),
-#     node(-1,6), node(-1,7), node(56,3), node(-1,9), node(-1,-1)
-# ]
-# startPointer = 0
-# emptyList = 5
+linkedList = [
+    node(1,1), node(5,4), node(6,7), node(7,-1), node(2,2),
+    node(-1,6), node(-1,7), node(56,3), node(-1,9), node(-1,-1)
+]
+startPointer = 0
+emptyList = 5
 
 
-# def outputNodes(linkedList, startPointer):
-#     while startPointer != -1:
-#         print(f"{linkedList[startPointer].data}" )
-#         startPointer = linkedList[startPointer].nextNode
+def outputNodes(linkedList, startPointer):
+    while startPointer != -1:
+        print(f"{linkedList[startPointer].data}" )
+        startPointer = linkedList[startPointer].nextNode
         
-# outputNodes(linkedList,startPointer)
+outputNodes(linkedList,startPointer)
 
-# def addNode(linkedList,startPointer,emptyList):
-#     dataToAdd = int(input("Enter a your data to add to the list :"))
-#     newNode = node(dataToAdd,-1)
-#     linkedList[emptyList]=newNode
+def addNode(linkedList,startPointer,emptyList):
+    dataToAdd = int(input("Enter a your data to add to the list :"))
+    newNode = node(dataToAdd,-1)
+    linkedList[emptyList]=newNode
     
-#     lastNodeIndex = 0   # 3
-#     while startPointer != -1: # startPointer = 
-#         lastNodeIndex = startPointer    
-#         startPointer = linkedList[startPointer].nextNode   # -1
+    lastNodeIndex = 0   # 3
+    while startPointer != -1: # startPointer = 
+        lastNodeIndex = startPointer    
+        startPointer = linkedList[startPointer].nextNode   # -1
     
-#     linkedList[lastNodeIndex].nextNode=emptyList
+    linkedList[lastNodeIndex].nextNode=emptyList
     
-# addNode(linkedList,startPointer,emptyList)    
+addNode(linkedList,startPointer,emptyList)    
 
 
 
-# def addNode(linkedList, currentPointer, emptyList):
-#     dataToAdd = int(input("Enter the data to add: "))
-#     if emptyList < 0 or emptyList > 9:
-#         return False
+def addNode(linkedList, currentPointer, emptyList):
+    dataToAdd = int(input("Enter the data to add: "))
+    if emptyList < 0 or emptyList > 9:
+        return False
 
 
-#     newNode = node(dataToAdd, -1)
-#     linkedList[emptyList] = newNode
+    newNode = node(dataToAdd, -1)
+    linkedList[emptyList] = newNode
 
-#     previousPointer = 0
-#     while currentPointer != -1:
-#         previousPointer = currentPointer
-#         currentPointer = linkedList[currentPointer].nextNode
+    previousPointer = 0
+    while currentPointer != -1:
+        previousPointer = currentPointer
+        currentPointer = linkedList[currentPointer].nextNode
 
-#     linkedList[previousPointer].nextNode = emptyList
-#     # Update emptyList (not global, to keep function pure)
-#     return True
+    linkedList[previousPointer].nextNode = emptyList
+    # Update emptyList (not global, to keep function pure)
+    return True
 
         
         
